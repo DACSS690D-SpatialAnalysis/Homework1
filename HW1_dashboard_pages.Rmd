@@ -1,0 +1,62 @@
+---
+title: "Homework #1 DACSS690"
+output: 
+  flexdashboard::flex_dashboard:
+    navbar:
+      - { title: "GitHub", icon: "fa-github", href: "https://github.com/DACSS690D-SpatialAnalysis/Homework1", align: right }
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+<!-- links -->
+```{r}
+ddmlink=
+  ddm=url("https://github.com/DACSS690D-SpatialAnalysis/Homework1/raw/refs/heads/main/interactive_ddm.rds")
+
+psmlink=
+  psm=url("https://github.com/DACSS690D-SpatialAnalysis/Homework1/raw/refs/heads/main/interactive_psm.rds")
+
+chorolink=
+  choro=url("https://github.com/DACSS690D-SpatialAnalysis/Homework1/raw/refs/heads/main/interactive_choro.rds")
+```
+
+Sidebar {.sidebar}
+=====================================
+
+
+I can give some textual explanation here!
+
+Dot Density Map
+===================================== 
+
+
+### DDM of Mobile Phones in South America
+
+```{r}
+readRDS(ddm)
+```
+
+
+Proportional Symbols Map
+===================================== 
+
+
+### PSM of Mobile Phones in South America
+
+```{r}
+readRDS(psm)
+```
+
+
+Chloropleth Map
+===================================== 
+
+
+### Choropleth Map of Mobile Phones in South America
+
+```{r}
+readRDS(choro)
+```
+
