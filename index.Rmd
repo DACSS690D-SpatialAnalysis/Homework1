@@ -30,11 +30,15 @@ All three maps analyze the number of mobile phone subscribers in each country.
 
 **Dot Density Map**
 
-The number of dots in each country represents the *density* of mobile phone subscribers. Countries like Colombia and Ecuador have a higher density of mobile phones subscribers, represented by the denser cluster of red dots in those countries. Countries like Guyana, Suriname, or Uruguay, which have a noticeably smaller concentration of dots. 
+The number of dots in each country represents the *density* of mobile phone subscribers with each dot showing 500,000 mobile phone subscribers. Countries like Colombia and Ecuador have a higher density of mobile phones subscribers, represented by the denser cluster of red dots in those countries. Countries like Guyana, Suriname, or Uruguay, which have a noticeably smaller concentration of dots. 
 
 **Proportional Symbols Map**
 
 The size of the dot on each country represents the *number* of mobile phone subscribers. Brazil has the largest dot on this map, highlighting that they have the highest amount of mobile phone subscribers out of all the South American countries shown. One thing to note is that while Brazil has the largest number of subscribers, it does not have the highest density of subscribers as we already established with our DDM that Colombia has the highest density. 
+
+**Chloropleth Map** 
+
+The chloropleth map also shows the *density* of mobile phone subscribers in each country. The color of each country highlights the density of the mobile subscribers, with again Colombia and Ecuador showing the highest densities. This also shows that while Brazil has the highest number of mobile phone subscribers, it does not have the highest density -- in fact, it shows on the chloropleth map as having a low density of mobile phone subscribers. 
 
 Dot Density Map
 ===================================== 
